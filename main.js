@@ -16,20 +16,20 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Afirmação"
         },
         { //alternativa 2
-            texto: "Ah que não sei que sei que",
+            texto: "NÃO",
             afirmacao: "Afirmação",
         },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Pergunta 2",
+        enunciado: "Gosta de ganhar presentes?",
         alternativas: [
         {
-            texto: "Que não sei que sei que lá",
+            texto: "SIM",
             afirmacao: "Afirmação"
         },
         {
-            texto: "Sei lá sei que",
+            texto: "NÃO",
             afirmacao: "Afirmação",
         },
     ]
