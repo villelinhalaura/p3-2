@@ -9,64 +9,215 @@ const textoResultado = document.querySelector(".texto-resultado"); //constante t
 
 const perguntas = [ //abre uma lista de perguntas
     { //abre objeto de pergunta
-        enunciado: "Gosta de receber ou dar abraços?",
+        enunciado: "Por qual motivo você ficaria na detenção em Hogwarts?",
         alternativas: [
         { //alternativa 1
-            texto: "SIM",
-            afirmacao: "Afirmação"
+            texto: "Por bater em um colega para defender um amigo",
+            afirmacao: "Grifinória"
         },
         { //alternativa 2
-            texto: "NÃO",
-            afirmacao: "Afirmação",
+            texto: "Por invadir a Seção Restrita da biblioteca",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Por zombar seu rival",
+            afirmacao: "Sonserina",
+        },
+        { //alternativa 4
+            texto: "Por tentar explorar a Floresta Proibida",
+            afirmacao: "Lufa-Lufa",
         },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Gosta de ganhar presentes?",
+        enunciado: "No seu primeiro ano em Hogwarts, a que tipo de aluno você se juntaria?",
         alternativas: [
-        {
-            texto: "SIM",
-            afirmacao: "Afirmação"
+        { //alternativa 1
+            texto: "Aos mais populares",
+            afirmacao: "Grifinória"
         },
-        {
-            texto: "NÃO",
-            afirmacao: "Afirmação",
+        { //alternativa 2
+            texto: "Aos que parecem mais inteligentes",
+            afirmacao: "Corvinal",
         },
+        { //alternativa 3
+            texto: "Aos que primeiro te acolherem",
+            afirmacao: "Lufa-Lufa",
+        },
+        { //alternativa 4
+            texto: "Não se juntaria a ninguém, pois não preciso de ninguém",
+            afirmacao: "Sonserina",
+            },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Pergunta 3",
-        alternativas: [
-        {
-            texto: "Bla bla bla bla",
-            afirmacao: "Afirmação"
+        enunciado: "Se na sua sala de aula houvesse um aluno excluído por ser diferente e tivesse faltando uma pessoa para preencher eu grupo, o que você faria?",
+        alternativas:[
+        { //alternativa 1
+            texto: "Teria pena e o chamaria para compor seu grupo",
+            afirmacao: "Lufa-Lufa"
         },
-        {
-            texto: "Endauldi agrummgit",
-            afirmacao: "Afirmação",
+        { //alternativa 2
+            texto: "Preferiria ficar com o número de pessoas reduzido",
+            afirmacao: "Corvinal",
         },
+        { //alternativa 3
+            texto: "Chamaria o colega, mas seria rígido durante as atividades",
+            afirmacao: "Grifinória",
+        },
+        { //alternativa 4
+            texto: "Não chamaria e torceria para que ninguém o chamasse",
+            afirmacao: "Sonserina",
+            },
     ]
-    } //fecha objeto de pergunta
+    }, //fecha objeto de pergunta
+    { //abre objeto de pergunta
+        enunciado: "No seu grupo de amigos, você é:",
+        alternativas: [
+        { //alternativa 1
+            texto: "O sociável",
+            afirmacao: "Lufa-Lufa"
+        },
+        { //alternativa 2
+            texto: "O assertivo",
+            afirmacao: "Sonserina",
+        },
+        { //alternativa 3
+            texto: "O inteligente",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 4
+            texto: "O leal",
+            afirmacao: "Grifinória",
+            },
+    ]
+    }, //fecha objeto de pergunta
+    { //abre objeto de pergunta
+        enunciado: "Você recebeu sua carta de admissão em Hogwarts. Qual a sua reação?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Fica estressado",
+            afirmacao: "Sonserina"
+        },
+        { //alternativa 2
+            texto: "Fica lisonjeado",
+            afirmacao: "Grifinória",
+        },
+        { //alternativa 3
+            texto: "Indiferente",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 4
+            texto: "Pula de alegria",
+            afirmacao: "Lufa-Lufa",
+            },
+    ]
+    }, //fecha objeto de pergunta
+    { //abre objeto de pergunta
+        enunciado: "Você acabou de comprar seu animal de estimação, qual você escolheu?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Coruja",
+            afirmacao: "Grifinória"
+        },
+        { //alternativa 2
+            texto: "Rato",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 3
+            texto: "Gato",
+            afirmacao: "Lufa-Lufa",
+        },
+        { //alternativa 4
+            texto: "Cobra",
+            afirmacao: "Sonserina",
+            },
+    ]
+    }, //fecha objeto de pergunta
+    { //abre objeto de pergunta
+        enunciado: "Você vê Harry Potter pela primeira vez, qual sua reação?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Peço um autógrafo e fotos",
+            afirmacao: "Grifinória"
+        },
+        { //alternativa 2
+            texto: "Ele tem sangue impuro, é melhor ficar longe",
+            afirmacao: "Sonserina",
+        },
+        { //alternativa 3
+            texto: "Sou tímido para falar com ele",
+            afirmacao: "Lufa-Lufa",
+        },
+        { //alternativa 4
+            texto: "Fico admirada",
+            afirmacao: "Corvinal",
+            },
+    ]
+    }, //fecha objeto de pergunta
+    { //abre objeto de pergunta
+        enunciado: "O que você veria no espelho Oesed?",
+        alternativas: [
+        { //alternativa 1
+            texto: "Eu rodeado de riquezas",
+            afirmacao: "Sonserina"
+        },
+        { //alternativa 2
+            texto: "Eu roddedo de amigos e família",
+            afirmacao: "Lufa-Lufa",
+        },
+        { //alternativa 3
+            texto: "Eu sabendo de tudo",
+            afirmacao: "Corvinal",
+        },
+        { //alternativa 4
+            texto: "Vivendo grandes aventuras",
+            afirmacao: "Grifinória",
+            },
+    ]
+    }, //fecha objeto de pergunta
 ]; //fecha lista de pergunta
 
-let atual = 0; //variável marcador de posição; começa pela pergunta 1
-let perguntaAtual; //variável que vai receber o texto
+//Declaração de variáveis
+let atual = 0; //variável que mantem o inice da pergunta atual no array 'perguntas'
+let perguntaAtual; // variável que armazena a pergunta atual
+let historiaFinal = ""; //String que acumula as afirmações selecionadas pelo usuário, formando uma narrativa final.
 
-function mostraPergunta(){ //função que faz aparecer a pergunta
-    perguntaAtual = perguntas[atual]; //declara a variável
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraAlternativas();
+//Essa função tem como objetivo exibir a pergunta atual ou o resultado final se todas as perguntas tiverem sido respondidas.
+function mostraPergunta() {
+    if (atual >= perguntas.length) { //Verifica se o índice atual excede o número de perguntas disponíveis. Se sim, chama mostraResultado e retorna, encerrando a função.
+        mostraResultado();
+        return;
+    }
+    perguntaAtual = perguntas[atual]; //Atribui à variável perguntaAtual a pergunta atual do array perguntas.
+    caixaPerguntas.textContent = perguntaAtual.enunciado; //Define o conteúdo de texto do elemento caixaPerguntas como o enunciado da pergunta atual.
+    caixaAlternativas.textContent = ""; //Limpa o conteúdo do elemento caixaAlternativas.
+    mostraAlternativas(); //Chama a função mostraAlternativas para exibir as alternativas da pergunta atual.
 }
 
+//Essa função tem como cobjetivo exibir as alternativas da pergunta atual como botões e definir a ação ao clicar neles.
 function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", function(){
-            atual++;
-            mostraPergunta();
-        })
-        caixaAlternativas.appendChild(botaoAlternativas);
+    for(const alternativa of perguntaAtual.alternativas) { // Itera sobre cada alternativa da pergunta atual.
+        const botaoAlternativas = document.createElement("button"); //Cria um novo elemento de botão para cada alternativa.
+        botaoAlternativas.textContent = alternativa.texto; //Define o texto do botão como o texto da alternativa.
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa)); //Adiciona um ouvinte de eventos ao botão, que chama a função respostaSelecionada passando a alternativa selecionada quando o botão é clicado.
+        caixaAlternativas.appendChild(botaoAlternativas); //Adiciona o botão ao elemento caixaAlternativas.
     }
 }
-mostraPergunta();
+
+//Essa função tem como objetivo processar a resposta selecionada, atualizar a narrativa final e avançar para a próxima pergunta.
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = opcaoSelecionada.afirmacao; //Obtém a afirmação associada à alternativa selecionada.
+    historiaFinal += afirmacoes + " "; //Adiciona a afirmação à historiaFinal.
+    atual++; //Incrementa o índice da pergunta atual.
+    mostraPergunta(); //Chama a função mostraPergunta para exibir a próxima pergunta.
+}
+
+//Essa função tem como objetivo exibir a narrativa final baseada nas respostas do usuário.
+function mostraResultado() {
+    caixaPerguntas.textContent = "De acordo com suas respostas, sua casa é..."; //Define o conteúdo de texto do elemento caixaPerguntas para informar o usuário sobre o resultado.
+    textoResultado.textContent = historiaFinal; //Define o conteúdo de texto do elemento textoResultado como a narrativa final acumulada.
+    caixaAlternativas.textContent = ""; // Limpa o conteúdo do elemento caixaAlternativas.
+}
+
+mostraPergunta(); //Chama a função mostraPergunta para iniciar o questionário exibindo a primeira pergunta.
