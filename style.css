@@ -1,8 +1,8 @@
 :root{ /*cria variáveis de cor*/
-    --cor-fundo: #336036
-    --cor-principal:  #2e9b5b;
+    --cor-fundo: #4d1111;
+    --cor-principal: #2e9b5b;
     --cor-secundaria: #000000;
-    --cor-destaque: #ff00aa62;
+    --cor-destaque: #ffffff00;
     --cor-texto: #ffae004b;
 }
 body{ /*estilização no corpo da página*/
@@ -14,6 +14,7 @@ body{ /*estilização no corpo da página*/
     min-height: 100vh; /*define o tamanho minimo dos elementos: 100 vw = tamanho da janela de visualização*/
 }
 .caixa-principal{ /*estilização da classe caixa-principal*/
+    
     background-color: var(--cor-principal);
     width: 90%; /*largura dos elementos*/
     text-align: center; /*alinha o texto no centro*/
