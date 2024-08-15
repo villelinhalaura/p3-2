@@ -1,9 +1,9 @@
 :root{ /*cria variáveis de cor*/
     --cor-fundo: #4d1111;
-    --cor-principal: #00003d0c0c00;
+    --cor-principal: #ac9c5d;
     --cor-secundaria: #d5b19b;
     --cor-destaque: #fdcfa9;
-    --cor-texto: #000000;
+    --cor-texto: #d5b19b;
 }
 body{ /*estilização no corpo da página*/
     background-image: url(harry.jpg);
@@ -15,7 +15,7 @@ body{ /*estilização no corpo da página*/
 }
 .caixa-principal{ /*estilização da classe caixa-principal*/
     
-    background-color: var(--cor-principal);
+    background-color:var(--cor-principal) ;
     width: 90%; /*largura dos elementos*/
     text-align: center; /*alinha o texto no centro*/
     padding: 20px; /*espaçamento interno de 20 pixels*/
