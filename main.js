@@ -163,7 +163,7 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Sonserina"
         },
         { //alternativa 2
-            texto: "Eu roddedo de amigos e família",
+            texto: "Eu rodedo de amigos e família",
             afirmacao: "Lufa-Lufa",
         },
         { //alternativa 3
@@ -221,3 +221,4 @@ function mostraResultado() {
 }
 
 mostraPergunta(); //Chama a função mostraPergunta para iniciar o questionário exibindo a primeira pergunta.
+papel de parede harry potter computador
