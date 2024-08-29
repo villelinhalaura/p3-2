@@ -221,4 +221,3 @@ function mostraResultado() {
 }
 
 mostraPergunta(); //Chama a função mostraPergunta para iniciar o questionário exibindo a primeira pergunta.
-papel de parede harry potter computador
