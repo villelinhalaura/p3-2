@@ -1,9 +1,9 @@
 :root{ /*cria variáveis de cor*/
     --cor-fundo: #4d1111;
-    --cor-principal: #ac9c5d;
-    --cor-secundaria: #d5b19b;
+    --cor-principal: #6c0000;
+    --cor-secundaria: fdcfa9;
     --cor-destaque: #fdcfa9;
-    --cor-texto: #d5b19b;
+    --cor-texto: #fdcfa9;
 }
 body{ /*estilização no corpo da página*/
     background-image: url(harry.jpg);
